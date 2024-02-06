@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archivo HTML con JavaScript Incorrecto</title>
+    <script>
+        // Contenido incorrecto en el script
+        function funcionInexistente() {
+            // Intento acceder a una variable no declarada
+            console.log(variableInexistente);
+
+            // Intento llamar a una función no definida
+            funcionNoExistente();
+
+            // Intento dividir por cero
+            const resultado = 10 / 0;
+            console.log(resultado);
+        }
+    </script>
+</head>
+<body>
+    <h1>Este es un encabezado</h1>
+    <p>Este es un párrafo de texto.</p>
+    <!-- Llamada a la función inexistente -->
+    <script>
+        funcionInexistente();
+    </script>
+</body>
+</html>
